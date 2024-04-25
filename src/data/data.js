@@ -72,3 +72,21 @@ export const SprintEvents = {
     sprintCycleImageSource: "/Images/sprintevent.jpg"
 }
 
+export const Artifacts = {
+    heroTitle: "The Three Artifacts",
+    whatText: "The Scrum team produces three artifacts: Product Backlog, Sprint Backlog, Increment",
+    whatTextTwo:"Each artifact holds a commitment aimed at enhancing transparency and focus, serving as a benchmark for measuring progress:",
+    bulletOne: "The Product Backlog is anchored by the Product Goal.",
+    bulletTwo: "The Sprint Backlog is guided by the Sprint Goal.",
+    bulletThree: "The Increment adheres to the Definition of Done.",
+    whatTextThree: "These commitments are in place to uphold empiricism and the Scrum values for both the Scrum Team and their stakeholders.",
+    productBacklogText: "The Product Backlog is like a to-do list for the work to be done, and it’s managed by the Scrum Team. They prioritize tasks, making sure they're clear and ready to be worked on during a Sprint. These tasks are often described as 'user stories', which help the team understand what needs to be done from the user's perspective. The tasks become clear and actionable through the process of refining them, adding details like descriptions, acceptance criteria and priority. The Product Goal, which is the commitment for the Product Backlog, is a target for where the product should be heading, and the tasks in the backlog help achieve that goal.",
+    sprintBacklogText:"The Sprint Backlog is a detailed game plan for the Sprint, a period of time within which an estimated number of tasks (tickets/user stories) should be completed. The tasks of each Sprint are selected from the Product Backlog and serves as a reference point for progress evaluation during the Daily Scrum. Developers create this plan and it's continuously updated as they work to help them stay on track. The Sprint Goal keeps everyone focused on the main objective, allowing flexibility in how it's achieved.",
+    incrementText: "The Increment marks a significant step toward reaching the Product Goal. It represents the total user stories/tickets completed during a Sprint, such as new features, improvements, or any changes made. Each Increment builds upon previous work and is thoroughly tested to ensure it works well and adds value. Multiple Increments can be completed within a Sprint, helping the team learn and improve continuously.",
+    DODText: "The Definition of Done plays a crucial role in maintaining transparency and quality within the Increment. It must be followed by all team members. It sets clear criteria for what constitutes completed work, ensuring a shared understanding among the team. If a Product Backlog item fails to meet these criteria, it cannot be released or showcased at the Sprint Review at the end of a Sprint. Instead, it's returned to the Product Backlog for further refinement and potential inclusion in future Sprints.",
+    sprintReviewText: "At the Sprint Review, the Increment is demonstrated and evaluated against the Sprint Goal, providing stakeholders with visibility into the progress made and gathering feedback for further refinement. This collaborative process ensures alignment with customer needs and enables iterative improvement of the product.",
+    importanceOfArtifactsText: "The state of the three artifacts determine the future trajectory of the work as decisions are made based on them. It is important that all the work is conducted in a transparent way, meaning that every member of the team has access to the latest updates and information regarding the product backlog, Sprint backlog, and increment. Transparency ensures that everyone is on the same page, allowing for better collaboration, decision-making, and alignment with project goals. Without transparency, misunderstandings and miscommunications can arise, leading to delays, rework, and ultimately, a compromised product or project outcome.",
+    heroImgSource: "/Images/bluefront.jpg",
+    scrumAllPartsImgSource: "/Images/scrum.jpg",
+    teamCelebratingImgSource: "/Images/celebrating2.jpg"
+}
