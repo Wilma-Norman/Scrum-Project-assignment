@@ -1,0 +1,34 @@
+html {
+    background-color: #DDE5DD;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+}
+
+img {
+    border-radius: 20px; 
+    width: 30%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px; 
+    color: #333; 
+    margin-bottom: 20px; 
+}
+
+.text {
+    text-align: center; 
+    margin: 0 auto;
+    max-width: 50%; 
+    color: #666; 
+    line-height: 1.6;
+}

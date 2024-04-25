@@ -1,7 +1,9 @@
+import HouseOfScrum from "../../Components/Essence/HouseOfScrum"
+
 const Essence = () => {
     return(
         <>
-        
+            <HouseOfScrum />
         </>
     )
 }
