@@ -1,0 +1,9 @@
+.threeColumnContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: blue;
+    color: white;
+    padding: 32px;
+    flex: 0 0 calc(33% - 16px)
+}
