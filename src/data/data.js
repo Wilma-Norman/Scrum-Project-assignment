@@ -55,3 +55,20 @@ export const ScrumTeam = {
     circleImageSource: "/Images/ScrumRoles.png"
 }
 
+export const SprintEvents = {
+    heroTitle: "Sprint Events",
+    whatText: "In Scrum, Sprint Events are like checkpoints in a race. They help the team stay on track and work effectively. There are four main Sprint Events:",
+    bulletOne:"Sprint Planning",
+    bulletTwo: "Daily Scrum",
+    bulletThree:"Sprint Review",
+    bulletFour: "Sprint Retrospective",
+    sprintPlanningText: "Sprint Planning kicks off each Sprint by helping the team decide what tasks they'll tackle and how they'll tackle them. It's like mapping out a route before a journey. During this event, both the Product Owner and Development Team work together to choose tasks from the Product Backlog that contribute to the Sprint Goal. Together, they craft a plan on how to accomplish these tasks, setting the team up for a successful Sprint.",
+    dailyScrumText: "Daily Scrum is like a quick team huddle that happens every day. It's a short meeting where the Development Team comes together to sync up on their progress. They discuss what they worked on yesterday, what they plan to do today, and if there are any obstacles in their way. This daily check-in ensures everyone is on the same page and moving forward towards the Sprint Goal.",
+    sprintReviewText:"Sprint Review is like a team showcase at the end of each Sprint. It's where the Development Team presents their completed work to the stakeholders, such as clients or managers. During this event, the team shares what they've accomplished and gathers feedback. This feedback helps ensure that the product increment meets the needs of the stakeholders and guides future development efforts.",
+    retrospectiveText:"Sprint Retrospective is like a team's after-game analysis. After each Sprint, the team gathers to reflect on how they worked together. They talk about what went well and what could be improved for the next Sprint. This meeting helps the team learn from their experiences and become even better at working together over time.",
+    eventConclusionText: "These Sprint Events are like the playbook for the Scrum team. They give the team a rhythm and routine to follow, making sure everyone knows what to do and when. By sticking to these events, the team can deliver small, valuable pieces of work step by step. It's all about staying organized, talking openly, and getting better together, just like a sports team strategizing during a game and cheering for each other's achievements.",
+    heroImgSource:"/Images/pinkfront.jpg",
+    thumbsUpImageSource: "/Images/celebrating.jpg",
+    sprintCycleImageSource: "/Images/sprintevent.jpg"
+}
+
