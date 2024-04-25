@@ -17,14 +17,35 @@
     width: 100%;
     height: auto;
     display: flex;
-    margin-top: 10%;
+    margin-top: 55%;
     flex-grow: 1;
-    
+    text-shadow: -1px -1px 0 #979797, 1px -1px 0 #302f2f, -1px 1px 0 #333333, 1px 1px 0 #979797;
+    font-size: 2.7rem;
+    text-align: center; 
 }
 
 .heroLine {
-    background-color: pink;
-    height: 5px;
+    background-color: grey;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 15%;
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        margin-top: 33%;
+        font-size: 4rem;
+    }
+    .heroLine {
+        margin-bottom: 10%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .header {
+        margin-top: 23%;
+        font-size: 5rem;
+    }
+    .heroLine {
+        margin-bottom: 5%;
+    }
 }
