@@ -1,0 +1,14 @@
+.twoColumnTextContainer div {
+    display: flex;
+    color: white;
+    width: 100%;
+    flex-direction: row;
+    background-color: rgb(71, 71, 71);
+
+}
+
+@media screen and (min-width: 768px) {
+    .twoColumnTextContainer div {
+        flex-direction: column;
+    }
+}
