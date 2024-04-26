@@ -12,19 +12,19 @@ const ProductOwner = () => {
                 </div>
 
                 <div className={styles.textwraper}>
-                    <p className={styles.imageText}>text filetext filetext filetext filetext filetext filetext filetext filefiletext file filetext file filetext file</p>
+                    <p className={styles.imageText}>text filetext filetext filetext filetext filetext </p>                    
                 </div>
 
             </div>
 
             <div className={styles.productpart}>
-                
-                <div>
-                    <h1>The Product Owner</h1>
+
+                <div className={styles.headerwraper}>
+                    <h1 className={styles.headertext}>The Product Owner</h1>
                 </div>
 
-                <div>
-                    <p>text file</p>
+                <div className={styles.textwraper}>
+                    <p className={styles.ptext}>text file</p>
                 </div>                
                 
             </div>

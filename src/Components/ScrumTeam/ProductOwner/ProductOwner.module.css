@@ -1,19 +1,26 @@
-.teamimage {
-    height: auto;
-    width: 60%;
-    border-radius: 10%;
+body {
+    background-color: #E4DEE8;
 }
 
 .imagepart {
-    background-color: red;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    border-bottom: 2px solid #8E8E8E;
+    height: 70vh;
+}
+
+.teamimage {
+    height: fit-content;
+    width: 60%;
+    border-radius: 10%;
+    display: flex;
 }
 
 .imagewraper {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 50%;
     margin: 20px;
 }
@@ -27,8 +34,32 @@
     display: flex;
     justify-content: center;
     margin: 20px;
+    align-items: center;
 }
 
 .productpart {
-    background-color: green;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 30vh;
+}
+
+.headerwraper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 20px;
+}
+
+.headertext {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.textwraper {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 20px;
 }
