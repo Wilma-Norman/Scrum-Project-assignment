@@ -1,0 +1,9 @@
+:root {
+    --essence-bg-color: #F5F5F5;
+    --essence-highlight-color: #008960;
+  }
+
+.essenceContainer {
+    display: flex;
+}
+
