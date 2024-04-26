@@ -5,9 +5,6 @@ const Essence = () => {
     return(
         <div className={styles.essenceContainer}>
             <WhatIsScrum/>
-            <WhatIsScrum/>
-            <WhatIsScrum/>
-            <WhatIsScrum/>
         </div>
     )
 }
