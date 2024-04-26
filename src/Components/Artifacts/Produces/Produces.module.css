@@ -1,0 +1,21 @@
+.twoColumnTextContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.textWrapper {
+    padding: 1rem;
+}
+
+.imageWrapper img {
+    width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+    .twoColumnTextContainer {
+        flex-direction: row;
+    }
+    .imageWrapper img {
+        width: 70%;
+    }
+}

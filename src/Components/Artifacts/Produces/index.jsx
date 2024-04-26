@@ -5,13 +5,20 @@ import Card from '../../Card'
 const Produces = () => {
     return (
         <div className={styles.twoColumnTextContainer}>
-            <Card text={Artifacts.whatText}/>
-            <Card text={Artifacts.whatTextTwo}/>
-            <Card text={Artifacts.bulletOne}/>
-            <Card text={Artifacts.bulletTwo}/>
-            <Card text={Artifacts.bulletThree}/>
-            <Card text={Artifacts.whatTextThree}/>
-            <img src={Artifacts.scrumAllPartsImgSource} alt=""/>
+            <div className={styles.textWrapper}>
+                <p>{Artifacts.whatText} </p>
+                <p>{Artifacts.whatTextTwo} </p>
+                <ul>
+                    <li>{Artifacts.bulletOne}</li>
+                    <li>{Artifacts.bulletTwo}</li>
+                    <li>{Artifacts.bulletThree}</li>
+                </ul>
+                <p>{Artifacts.whatTextThree} </p>
+            </div>
+            <div className={styles.imageWrapper}>
+                <img src={Artifacts.scrumAllPartsImgSource} alt="a picture of scrum" />
+            </div>
+            
         </div>
         
     )
