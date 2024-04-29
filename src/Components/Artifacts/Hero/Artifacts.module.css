@@ -14,7 +14,7 @@
     flex-grow: 1;
     font-size: 2.2rem;
     justify-content: center;
-    margin-top: 55%;
+    margin-top: 150px;
     text-align: center;
     text-shadow: -1px -1px 0 #979797, 1px -1px 0 #302f2f, -1px 1px 0 #333333, 1px 1px 0 #979797;
     width: 100%;
@@ -28,17 +28,6 @@
 
 @media screen and (min-width: 768px) {
     .header {
-        margin-top: 33%;
-        font-size: 3.5rem;
-    }
-    .heroLine {
-        margin-bottom: 10%;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .header {
-        margin-top: 23%;
         font-size: 4rem;
     }
     .heroLine {
