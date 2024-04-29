@@ -1,8 +1,8 @@
 import styles from './ProductOwner.module.css'
 import teamwork from '../../../../Public/Images/teamwork.jpg'
-import ScrumTeam from '../../../../data/data.js'
+import {ScrumTeam} from '../../../data/data.js'
 
-const ProductOwner = ({whatText, keyRolesText}) => {
+const ProductOwner = () => {
     return (
         <>
         
@@ -12,8 +12,13 @@ const ProductOwner = ({whatText, keyRolesText}) => {
                     <img className={styles.teamimage} src={teamwork} alt="Image"/>
                 </div>
 
-                <div className={styles.textwraper}>
-                    <p className={styles.imageText}>{whatText}</p>                    
+                <div className={styles.textwraper}> 
+                    <p className={styles.whatText}>{ScrumTeam.whatText}</p>
+                    <ul className={styles.keyRolesText}>{ScrumTeam.keyRolesText}
+                        <li>{ScrumTeam.bulletOne}</li>      
+                        <li>{ScrumTeam.bulletTwo}</li> 
+                        <li>{ScrumTeam.bulletThree}</li> 
+                    </ul>  
                 </div>
 
             </div>
@@ -25,7 +30,7 @@ const ProductOwner = ({whatText, keyRolesText}) => {
                 </div>
 
                 <div className={styles.textwraper}>
-                    <p className={styles.ptext}>text file</p>
+                    <p className={styles.productOwnerText}>{ScrumTeam.productOwnerText}</p>
                 </div>                
                 
             </div>
