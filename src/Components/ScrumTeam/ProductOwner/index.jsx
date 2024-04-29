@@ -7,11 +7,9 @@ const ProductOwner = () => {
         <>
         
             <div className={styles.imagepart}>
-
                 <div className={styles.imagewraper}>
                     <img className={styles.teamimage} src={teamwork} alt="Image"/>
                 </div>
-
                 <div className={styles.textwraper}> 
                     <p className={styles.whatText}>{ScrumTeam.whatText}</p>
                     <ul className={styles.keyRolesText}>{ScrumTeam.keyRolesText}
@@ -20,21 +18,16 @@ const ProductOwner = () => {
                         <li>{ScrumTeam.bulletThree}</li> 
                     </ul>  
                 </div>
-
             </div>
 
             <div className={styles.productpart}>
-
                 <div className={styles.headerwraper}>
                     <h1 className={styles.headertext}>The Product Owner</h1>
                 </div>
-
                 <div className={styles.textwraper}>
                     <p className={styles.productOwnerText}>{ScrumTeam.productOwnerText}</p>
-                </div>                
-                
-            </div>
-       
+                </div>                 
+            </div>       
         </>
     )
 }
