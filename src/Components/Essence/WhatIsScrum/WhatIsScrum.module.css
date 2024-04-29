@@ -1,0 +1,27 @@
+.cardContainer {
+    background-color: var(--essence-bg-color);
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    height: fit-content;
+}
+
+.cardContainer * {
+    flex: 1;
+    margin: 8px;
+    padding: 16px;
+}
+
+.cardContainer > :nth-child(1) h2 {
+    background-color: var(--essence-highlight-color);
+    border-radius: 10px;
+    color: #fff;
+    padding: 16px;
+    text-align: center;
+}
+
+@media screen and (min-width:768px) {
+    .cardContainer {
+        flex-direction: row;
+    }
+}
