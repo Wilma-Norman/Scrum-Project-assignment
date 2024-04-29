@@ -6,21 +6,27 @@ html {
     background-color: #4B7492;
     width: 25%;
     margin: 12px;
-    border-radius: 20px;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #EDEADE;
 }
 
 .boxTwo {
     background-color: #A6A84D;
     width: 25%;
     margin: 12px;
-    border-radius: 20px;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #EDEADE;
 }
 
 .boxThree {
     background-color: #66437B;
     width: 25%;
     margin: 12px;
-    border-radius: 20px;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #EDEADE;
 }
 
 .upperContainer {
@@ -29,19 +35,30 @@ html {
     justify-content: center;
 }
 
+.lowerContainer {
+    display: flex;
+}
+
 .titleOne {
     text-align: center;
+    font-size: 24px;
 }
 
 .titleTwo {
     text-align: center;
+    font-size: 24px;
 }
 
 .titleThree {
     text-align: center;
+    font-size: 24px;
 }
 
 p {
+    text-align: center;
+}
+
+h4 {
     text-align: center;
 }
 
