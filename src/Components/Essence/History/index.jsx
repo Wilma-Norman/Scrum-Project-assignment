@@ -10,9 +10,11 @@ const History = () => {
                 </div>
                 <p>{Essence.historyText}</p> 
             </div>
-            <img src={Essence.frameworkImgSource} alt='Overview of The Scrum Framework'/>
+            <div className={styles.imgContainer}>
+                <img src={Essence.frameworkImgSource} alt='Overview of The Scrum Framework'/>
+            </div>
         </div>
     )
 }
 
-export default History
+export default History;
