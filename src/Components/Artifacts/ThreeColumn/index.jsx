@@ -1,7 +1,6 @@
-import styles from './ThreeColumn.module.css'
 import { Artifacts } from '../../../data/data'
 import Card from '../Card'
-
+import styles from './ThreeColumn.module.css'
 
 const ThreeColumn = () => {
     return (

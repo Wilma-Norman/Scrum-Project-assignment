@@ -1,11 +1,9 @@
-import styles from './Card.module.css'
-
-const Card = ({title, text}) => {
+const Card = ({ title, text, className }) => {
     return (
-        <div>
+        <div className={className ? `${className}` : null}>
             <h2>{title}</h2>
             <p>{text}</p>
         </div>
-    )
-}
-export default Card
+    );
+};
+export default Card;

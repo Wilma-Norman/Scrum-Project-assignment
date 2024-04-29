@@ -3,16 +3,15 @@
 }
 
 .threeColumnContainer {
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;
     color: white;
+    display: flex;
     flex: 0 0 calc(33% - 32px);
     flex-direction: column;
-
+    justify-content: space-evenly;
+    width: 100%;
 }
 
-.firstcard, .secondcard, .thirdcard{
+.firstcard, .secondcard, .thirdcard {
     background-color: var(--artifacts-bg-color);
     border-radius: 20px;
     flex: 1;
@@ -27,25 +26,21 @@
     margin: 0 32px;
 }
 
-.firstcard h2, .secondcard h2, .thirdcard h2{
+.firstcard h2, .secondcard h2, .thirdcard h2 {
     padding-bottom: 30px;
 }
 
-
-
 @media screen and (min-width: 1080px) {
-
     .threeColumnContainer {
-        display: flex;
-        width: 100%;
-        justify-content: space-evenly;
         color: white;
+        display: flex;
         flex: 0 0 calc(33% - 32px);
         flex-direction: row;
-
+        justify-content: space-evenly;
+        width: 100%;
     }
 
-    .firstcard, .secondcard, .thirdcard{
+    .firstcard, .secondcard, .thirdcard {
         background-color: var(--artifacts-bg-color);
         border-radius: 20px;
         flex: 1;
@@ -63,5 +58,4 @@
     .firstcard h2, .secondcard h2, .thirdcard h2{
         padding-bottom: 30px;
     }
-
 }
