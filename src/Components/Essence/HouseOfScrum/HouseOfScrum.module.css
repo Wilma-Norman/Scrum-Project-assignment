@@ -8,27 +8,52 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh; 
+    height: 100vh;
+    padding: 0 10px; 
+    box-sizing: border-box;
+    flex-direction: column;
 }
 
 img {
-    border-radius: 20px; 
-    width: 30%; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    margin: auto;
+    border-radius: 20px;
+    width: 40%; 
+    max-width: 300px; 
+    height: auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .title {
     text-align: center;
-    font-size: 24px; 
-    color: #333; 
-    margin-bottom: 20px; 
+    font-size: 24px;
+    color: #666;
 }
 
 .text {
-    text-align: center; 
+    text-align: center;
     margin: 0 auto;
-    max-width: 50%; 
-    color: #666; 
+    max-width: 80%; 
+    color: #666;
     line-height: 1.6;
+}
+
+@media screen and (min-width: 760px) {
+    .container {
+        padding: 0 20px; 
+        flex-direction: row; 
+    }
+
+    img {
+        max-width: 50%;
+        margin-bottom: 0; 
+        margin-right: 20px; 
+    }
+
+    .title,
+    .text {
+        text-align: center;
+    }
+
+    .title {
+        font-size: 32px; 
+    }
 }
