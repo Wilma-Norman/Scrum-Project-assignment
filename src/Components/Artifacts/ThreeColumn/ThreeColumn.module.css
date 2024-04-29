@@ -1,9 +1,67 @@
+:root {
+    --artifacts-bg-color: #202f85;
+}
+
 .threeColumnContainer {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
-    background-color: blue;
     color: white;
-    padding: 32px;
-    flex: 0 0 calc(33% - 16px)
+    flex: 0 0 calc(33% - 32px);
+    flex-direction: column;
+
+}
+
+.firstcard, .secondcard, .thirdcard{
+    background-color: var(--artifacts-bg-color);
+    border-radius: 20px;
+    flex: 1;
+    padding: 150px 32px;
+}
+
+.firstcard, .thirdcard {
+    margin: 32px;
+}
+
+.secondcard {
+    margin: 0 32px;
+}
+
+.firstcard h2, .secondcard h2, .thirdcard h2{
+    padding-bottom: 30px;
+}
+
+
+
+@media screen and (min-width: 1080px) {
+
+    .threeColumnContainer {
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        color: white;
+        flex: 0 0 calc(33% - 32px);
+        flex-direction: row;
+
+    }
+
+    .firstcard, .secondcard, .thirdcard{
+        background-color: var(--artifacts-bg-color);
+        border-radius: 20px;
+        flex: 1;
+        padding: 150px 50px;
+    }
+
+    .firstcard, .thirdcard {
+        margin: 32px;
+    }
+
+    .secondcard {
+        margin: 32px 0;
+    }
+
+    .firstcard h2, .secondcard h2, .thirdcard h2{
+        padding-bottom: 30px;
+    }
+
 }

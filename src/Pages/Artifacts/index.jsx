@@ -1,13 +1,11 @@
 import ThreeColumn from "../../Components/Artifacts/ThreeColumn"
-import TwoColumnText from "../../Components/Artifacts/TwoColumnText"
+import styles from "./Artifacts.module.css"
 
 const Artifacts = () => {
     return(
-        <>
-        <ThreeColumn/>
-        <TwoColumnText/>
-        </>
+        <div className={styles.threeColumnContainer}>
+            <ThreeColumn/>
+        </div>
     )
 }
-
 export default Artifacts
