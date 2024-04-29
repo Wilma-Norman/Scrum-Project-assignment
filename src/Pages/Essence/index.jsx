@@ -1,7 +1,9 @@
+import FiveValues from "../../Components/Essence/FiveValues"
+
 const Essence = () => {
     return(
         <>
-        
+            <FiveValues />
         </>
     )
 }

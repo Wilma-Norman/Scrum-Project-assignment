@@ -1,0 +1,48 @@
+html {
+    background-color: #DDE5DD;
+}
+
+.boxOne {
+    background-color: #4B7492;
+    width: 25%;
+    margin: 12px;
+    border-radius: 20px;
+}
+
+.boxTwo {
+    background-color: #A6A84D;
+    width: 25%;
+    margin: 12px;
+    border-radius: 20px;
+}
+
+.boxThree {
+    background-color: #66437B;
+    width: 25%;
+    margin: 12px;
+    border-radius: 20px;
+}
+
+.upperContainer {
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+}
+
+.titleOne {
+    text-align: center;
+}
+
+.titleTwo {
+    text-align: center;
+}
+
+.titleThree {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+
