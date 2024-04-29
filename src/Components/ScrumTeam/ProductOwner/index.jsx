@@ -4,8 +4,7 @@ import {ScrumTeam} from '../../../data/data.js'
 
 const ProductOwner = () => {
     return (
-        <>
-        
+        <>        
             <div className={styles.imagepart}>
                 <div className={styles.imagewraper}>
                     <img className={styles.teamimage} src={teamwork} alt="Image"/>
@@ -19,7 +18,6 @@ const ProductOwner = () => {
                     </ul>  
                 </div>
             </div>
-
             <div className={styles.productpart}>
                 <div className={styles.headerwraper}>
                     <h1 className={styles.headertext}>The Product Owner</h1>

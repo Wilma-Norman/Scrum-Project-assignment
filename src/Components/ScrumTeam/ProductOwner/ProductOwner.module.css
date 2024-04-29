@@ -75,7 +75,6 @@ body {
     margin: 20px;
 }
 
-
 @media only screen and (max-width: 900px) {
     html {
         height: 100%;
@@ -91,7 +90,7 @@ body {
     }
 
     .whatText {
-        width: 170%;
+        width: 90%;
         text-align: center;
     }
 
@@ -102,6 +101,7 @@ body {
         align-items: center;
         width: 100%;
         border-bottom: none;
+        height: 60vh;
     }
 
     .teamimage {
@@ -114,7 +114,7 @@ body {
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 40vh;
+        height: 70vh;
     }
 
     .headertext {
@@ -128,7 +128,6 @@ body {
 
     .productOwnerText {
         margin: 10px;
-        width: 170%;
+        width: 90%;
     }
-
 }
