@@ -1,0 +1,10 @@
+:root {
+    --artifact-bg-color: rgb(65, 65, 65);
+}
+
+.artifactContainer {
+    background-color: var(--artifact-bg-color);
+    color: white;
+    display: flex;
+    width: 100%;
+}
