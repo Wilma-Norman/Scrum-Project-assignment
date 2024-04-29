@@ -3,7 +3,7 @@ import styles from "./Artifacts.module.css"
 
 const Artifacts = () => {
     return(
-        <div className={styles.threeColumnContainer}>
+        <div className={styles.artifactContainer}>
             <ThreeColumn/>
         </div>
     )

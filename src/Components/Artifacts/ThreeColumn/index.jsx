@@ -1,6 +1,7 @@
 import styles from './ThreeColumn.module.css'
 import { Artifacts } from '../../../data/data'
-import Card from '../../Card'
+import Card from '../Card'
+
 
 const ThreeColumn = () => {
     return (
