@@ -5,4 +5,5 @@
 
 .essenceContainer {
     display: flex;
+    background-color: var(--essence-bg-color);
 }
