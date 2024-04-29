@@ -22,7 +22,7 @@
 
 .titleContainer {
     display: flex;
-    background-image: url('/Public/Images/greenstrokes.jpg');
+    background-image: var(--background-img-url);
     border-radius: 10px;
     color: #fff;
     width: 100%;

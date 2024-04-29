@@ -5,7 +5,7 @@ const History = () => {
     return(
         <div className={styles.historyContainer}>
             <div className={styles.contentContainer}>
-                <div className={styles.titleContainer}>
+                <div className={styles.titleContainer} style={{ '--background-img-url': `url(${Essence.heroImgSource})`}}>
                     <h2>A Short History<br/> & <br/>The Dynamics</h2>
                 </div>
                 <p>{Essence.historyText}</p> 
