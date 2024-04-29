@@ -3,9 +3,7 @@ const Artifacts = () => {
     return(
         <div>
             <Produces/>
-            <Produces/>
         </div>
     )
 }
-
 export default Artifacts

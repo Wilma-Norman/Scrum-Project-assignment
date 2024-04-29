@@ -6,21 +6,19 @@ const Produces = () => {
     return (
         <div className={styles.twoColumnTextContainer}>
             <div className={styles.textWrapper}>
-                <p>{Artifacts.whatText} </p>
-                <p>{Artifacts.whatTextTwo} </p>
+                <p>{Artifacts.whatText}</p>
+                <p>{Artifacts.whatTextTwo}</p>
                 <ul>
                     <li>{Artifacts.bulletOne}</li>
                     <li>{Artifacts.bulletTwo}</li>
                     <li>{Artifacts.bulletThree}</li>
                 </ul>
-                <p>{Artifacts.whatTextThree} </p>
+                <p>{Artifacts.whatTextThree}</p>
             </div>
             <div className={styles.imageWrapper}>
                 <img src={Artifacts.scrumAllPartsImgSource} alt="a picture of scrum" />
             </div>
-            
-        </div>
-        
+        </div> 
     )
 }
 export default Produces
