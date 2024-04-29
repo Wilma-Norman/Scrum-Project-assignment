@@ -4,7 +4,9 @@ import Home from './Pages/Home'
 import ScrumTeam from './Pages/ScrumTeam'
 import SprintEvents from './Pages/SprintEvents'
 import { Routes, Route } from 'react-router-dom'
+import Footer from './Components/Global/Footer/footer'
 import './App.css'
+
 
 function App() {
 
@@ -17,6 +19,7 @@ function App() {
         <Route path='scrum-team' element={<ScrumTeam />}/>
         <Route path='events' element={<SprintEvents />}/>
       </Routes>
+      <Footer />
     </>
   )
 }

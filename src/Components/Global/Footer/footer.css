@@ -1,0 +1,33 @@
+.footer {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px;
+  background-color: #333;
+  color: white;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-left ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-left ul li {
+  margin: 5px 0;
+}
+
+.footer-right p {
+  text-align: right;
+}
+
+.footer img {
+  height: auto;
+  width: 100px;
+}
