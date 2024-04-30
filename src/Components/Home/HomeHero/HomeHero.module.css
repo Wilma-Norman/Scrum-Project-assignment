@@ -1,0 +1,38 @@
+.heroContainer {
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: 50% 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    height: auto;
+    flex-grow: 1;
+    font-size: 2.2rem;
+    justify-content: center;
+    margin-top: 200px;
+    text-align: center;
+    text-shadow: -1px -1px 0 #979797, 1px -1px 0 #302f2f, -1px 1px 0 #333333, 1px 1px 0 #979797;
+    width: 100%;
+}
+
+.heroLine {
+    background-color: grey;
+    margin-bottom: 15%;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        font-size: 4rem;
+        margin-top: 400px;
+    }
+    .heroLine {
+        margin-bottom: 5%;
+    }
+}
