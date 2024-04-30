@@ -4,7 +4,7 @@ html {
 
 .boxOne {
     background-color: #4B7492;
-    width: 25%;
+    width: 22%;
     margin: 12px;
     border-radius: 40px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -13,7 +13,7 @@ html {
 
 .boxTwo {
     background-color: #A6A84D;
-    width: 25%;
+    width: 22%;
     margin: 12px;
     border-radius: 40px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -22,7 +22,7 @@ html {
 
 .boxThree {
     background-color: #66437B;
-    width: 25%;
+    width: 22%;
     margin: 12px;
     border-radius: 40px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -30,13 +30,16 @@ html {
 }
 
 .upperContainer {
+    position: absolute;
+    justify-content: space-evenly;
     display: flex;
-    height: fit-content;
-    justify-content: center;
+    flex-direction: column;
 }
 
 .lowerContainer {
     display: flex;
+    margin: 20rem 9rem;
+
 }
 
 .titleOne {
@@ -62,4 +65,13 @@ h4 {
     text-align: center;
 }
 
+.fiveValuesText,
+.sideText {
+    width: 48%;
+    text-align: start;
+    margin-left: 19%;
+}
 
+.lines {
+    border-top: 1.3px solid #8E8E8E;
+}

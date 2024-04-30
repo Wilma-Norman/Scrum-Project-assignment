@@ -1,5 +1,5 @@
-import styles from './FiveValues.module.css';
 import { Essence } from '../../../data/data'
+import styles from './FiveValues.module.css'
 
 const FiveValues = () => {
     return (
@@ -20,12 +20,13 @@ const FiveValues = () => {
                     <p>{Essence.transparencyText}</p>
                     <h4 className={styles.smallText}>{Essence.transparencyPS}</h4>
                 </div>
-                {/* </div>
-                    <div className={styles.lowerContainer}>
+                <div className={styles.lines}></div>
+                <div className={styles.lowerContainer}>
                     <h1 className={styles.title}>The 5 values of Scrum</h1>
-                    <p className={styles.sideText}>To make the best and successful use of Scrum there are five values that also need to be met by everyone in the Team. The values help the team understand how to apply the Scrum rules and ceremonies in a good way and think of them as communication opportunities and improvement through making progress. The five values are:</p>
-                </div>  */}
+                    <p className={styles.sideText}>{Essence.fiveValuesText}</p>
                 </div>
+            </div> 
+             
         </>
     );
 };
