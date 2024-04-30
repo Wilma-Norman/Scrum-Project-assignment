@@ -2,7 +2,7 @@ export const Home = {
     heroTitle: "Welcome to The Scrum Guide",
     aboutText: "We designed The Scrum Guide website to help people understand what Scrum is, how it works and why it is a popular and amazing agile project management framework to use!",
     readyToGoText: "Ready to give it a shot? We promise we won't let you down!",
-    heroImgSource: "/Images/home-hd.jpg",
+    heroImgSource: "/Images/home.jpg",
     girlImgSource: "/Images/happygirl.jpg"
 }
 
