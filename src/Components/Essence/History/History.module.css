@@ -12,6 +12,7 @@
     height: fit-content;
     padding: 24px;
     text-align: center;
+    margin-top: 64px;
 }
 
 .contentContainer * {
@@ -40,7 +41,16 @@
 }
 
 @media screen and (min-width:768px) {
+    .historyContainer {
+        padding: 24px 64px;
+    }
+    
     .contentContainer {
         flex-direction: row;
+    }
+
+    .imgContainer {
+        width: 60%;
+        margin-top: 64px;
     }
 }

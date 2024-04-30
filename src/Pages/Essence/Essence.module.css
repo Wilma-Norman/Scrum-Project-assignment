@@ -4,6 +4,7 @@
   }
 
 .essenceContainer {
-    display: flex;
     background-color: var(--essence-bg-color);
+    display: flex;
+    flex-direction: column;
 }
