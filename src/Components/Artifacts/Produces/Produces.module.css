@@ -5,9 +5,9 @@
 }
 
 .textWrapper, .imageWrapper {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     padding: 32px;
 }
 
@@ -19,8 +19,8 @@
 
 @media screen and (min-width: 768px) {
     .twoColumnTextContainer {
+        align-items: center;
         flex-direction: row;
-        justify-content: center;
     }
 
     .imageWrapper {
@@ -28,7 +28,14 @@
         display: flex;
         flex: 1;
     }
+
     .imageWrapper img {
-        width: 500px;
+        max-width: 80%;
+        width: 450px;
+    }
+
+    .textWrapper {
+        flex: 1;
+        padding-right: 32px;
     }
 }
