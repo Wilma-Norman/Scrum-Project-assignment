@@ -1,3 +1,5 @@
+import DevelopTeam from "../../Components/ScrumTeam/DevelopTeam"
+
 const ScrumTeam = () => {
     return(
         <>

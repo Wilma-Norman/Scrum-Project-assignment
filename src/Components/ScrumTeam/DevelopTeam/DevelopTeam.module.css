@@ -1,0 +1,113 @@
+body {
+    background-color: #E4DEE8;
+}
+
+.wraper {
+    display: flex;
+    flex-direction: column;
+}
+
+.wraperScrum {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerWraper {
+    background-color: #7C4885;
+    width: 30%;
+    height: 50%;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 30px;
+}
+
+.headerScrum {
+    color: #fff;
+    margin: 10px;
+    font-size: 3rem;
+}
+
+.textWraper {
+    width: 40%;
+    height: 40%;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.scrumText {
+    width: 70%;
+    height: auto;
+    display: flex;
+}
+
+.wraperDevelop  {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapertext {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.developText {
+    width: 30%;
+    height: 40%;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 30px;
+}
+
+.headerDevelop {
+    font-size: 3rem;
+    text-align: center;    
+}
+
+@media only screen and (max-width: 760px) {
+
+    .wraperScrum {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wraperDevelop {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .headerWraper {
+        width: 80%;
+        height: 30%;
+        text-align: center;
+    }
+
+    .textWraper {
+        width: 100%;
+    }
+
+    .headerScrum {
+        font-size: 3rem;
+    }
+
+    .headerDevelop {
+        font-size: 3rem;
+    }
+}
