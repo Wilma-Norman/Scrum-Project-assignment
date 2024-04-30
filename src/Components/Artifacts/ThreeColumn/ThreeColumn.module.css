@@ -30,11 +30,11 @@
     padding-bottom: 30px;
 }
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 900px) {
     .threeColumnContainer {
         color: white;
         display: flex;
-        flex: 0 0 calc(33% - 32px);
+        flex: 0 0 calc(33% - 16px);
         flex-direction: row;
         justify-content: space-evenly;
         width: 100%;
