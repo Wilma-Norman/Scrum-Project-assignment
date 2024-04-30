@@ -1,11 +1,10 @@
 :root {
-    --artifacts-bg-color: #202f85;
+    --artifacts-bg-color: #3E516F
 }
 
 .threeColumnContainer {
     color: white;
     display: flex;
-    flex: 0 0 calc(33% - 32px);
     flex-direction: column;
     justify-content: space-evenly;
     width: 100%;
@@ -15,7 +14,7 @@
     background-color: var(--artifacts-bg-color);
     border-radius: 20px;
     flex: 1;
-    padding: 150px 32px;
+    padding: 50px 32px;
 }
 
 .firstcard, .thirdcard {
@@ -30,11 +29,10 @@
     padding-bottom: 30px;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 768px) {
     .threeColumnContainer {
         color: white;
         display: flex;
-        flex: 0 0 calc(33% - 16px);
         flex-direction: row;
         justify-content: space-evenly;
         width: 100%;
@@ -44,15 +42,15 @@
         background-color: var(--artifacts-bg-color);
         border-radius: 20px;
         flex: 1;
-        padding: 150px 50px;
+        padding: 50px 32px;
     }
 
     .firstcard, .thirdcard {
-        margin: 32px;
+        margin: 16px;
     }
 
     .secondcard {
-        margin: 32px 0;
+        margin: 16px 0;
     }
 
     .firstcard h2, .secondcard h2, .thirdcard h2{
