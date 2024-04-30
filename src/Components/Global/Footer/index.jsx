@@ -14,11 +14,9 @@ const Footer = () => {
           <li>Maria Hendricks</li>
         </ul>
       </div>
-
       <div className="footer-center">
       <img src="/Images/logo_transparant.png" alt="Logo transparant" style={{ maxWidth: '100px' }} />
       </div>
-
       <div className="footer-right">
         <p>The Scrum Guide Copyright 2024</p>
       </div>

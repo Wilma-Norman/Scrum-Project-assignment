@@ -12,7 +12,6 @@ const scrumTeamPage = () => {
 const HeroSection = () => {
   return (
     <section className="hero">
-      {/*Image covering the screen*/}
       <img src="purplefront2.jpg" alt="Hero image"/>
       <h1>SCRUM TEAM</h1>
       </section>
