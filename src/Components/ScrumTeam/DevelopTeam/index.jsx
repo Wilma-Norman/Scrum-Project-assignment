@@ -12,8 +12,7 @@ const DevelopTeam = () => {
                 <div className={styles.textWraper}>
                     <p className={styles.scrumText}>{ScrumTeam.scrumMasterText}</p>
                 </div>                 
-            </div>
-            
+            </div>            
             <div className={styles.wraperDevelop}>
                 <div className={styles.developText}>
                     <h1 className={styles.headerDevelop}>{ScrumTeam.bulletThree}</h1>
