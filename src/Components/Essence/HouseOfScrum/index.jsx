@@ -7,7 +7,7 @@ const HouseOfScrum = () => {
         <div className= {styles.container}>
             <img src="../Public/Images/greenhouse.jpg" alt="house of scrum picture" />
             <div className={styles.text}>
-                <h1 className={styles.title}>The house of Scrum</h1>
+                <h2 className={styles.title}>The house of Scrum</h2>
                 <p>{Essence.houseOfScrumTextOne}</p>
                 <p>{Essence.houseOfScrumTextTwo}</p>
             </div>

@@ -1,10 +1,5 @@
-html {
-    background-color: #DDE5DD;
-    font-family: Arial, sans-serif;
-    box-sizing: border-box;
-}
-
 .container {
+    background-color: #DDE5DD;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,7 +31,7 @@ img {
     line-height: 1.6;
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 768px) {
     .container {
         padding: 0 20px; 
         flex-direction: row; 
