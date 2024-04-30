@@ -1,0 +1,42 @@
+:root {
+    --artifact-sprint-review-bg-color: #484F85;
+}
+
+.twoColumnTextContainer {
+    background-color: var(--artifact-sprint-review-bg-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.card {
+    flex: 1;
+    padding: 32px;
+}
+
+.card h2 {
+    padding-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+    .twoColumnTextContainer {
+        padding-bottom: 100px; 
+        padding-top: 100px;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .card h2, .card p {
+        align-items: center;
+        display: flex;
+        flex: 0 0 calc(50% - 16px);
+        justify-content: center;
+        padding-bottom: unset;
+    }       
+}

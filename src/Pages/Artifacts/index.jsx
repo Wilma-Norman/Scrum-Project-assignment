@@ -1,7 +1,8 @@
 import ArtifactHero from "../../Components/Artifacts/Hero"
 import Produces from "../../Components/Artifacts/Produces"
 import ThreeColumn from "../../Components/Artifacts/ThreeColumn"
-import styles from "./Artifacts.module.css"
+import SprintReview from '../../Components/Artifacts/SprintReview'
+import styles from './Artifacts.module.css'
 
 const Artifacts = () => {
     return(
@@ -9,6 +10,7 @@ const Artifacts = () => {
             <ArtifactHero/>
             <Produces/>
             <ThreeColumn/>
+            <SprintReview/>
         </div>
     )
 }    
