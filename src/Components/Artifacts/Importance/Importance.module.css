@@ -1,0 +1,61 @@
+.importanceContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    width: 100%;
+}
+
+.importanceContainer .textWrapper h2, .importanceContainer .textWrapper p {
+    padding-bottom: 16px;
+}
+
+.importanceContainer .imageWrapper {
+    margin-bottom: 32px;
+}
+
+.importanceContainer img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.navigationButton {
+    justify-content: center;
+    display: flex;
+}
+
+.navigationButton a {
+    color: white;
+}
+
+.navigationButton a:hover {
+    color: rgb(168, 39, 39);
+}
+
+@media screen and (min-width: 768px) {
+    .importanceContainer {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .importanceContainer .imageWrapper {
+        flex: 1;
+        justify-content: center;
+        margin-bottom: unset;
+        display: flex;
+    }
+
+    .importanceContainer .imageWrapper img {
+        max-width: 80%;
+        max-width: 450px;
+    }
+
+    .importanceContainer .textWrapper {
+        flex: 1;
+        padding-left: 32px;
+    }
+
+    .navigationButton {
+        justify-content: center;
+        display: flex;
+    }
+}
