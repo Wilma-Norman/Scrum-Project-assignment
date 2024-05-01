@@ -1,0 +1,133 @@
+body {
+    background-color: #E4DEE8;
+}
+
+.imagepart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 2px solid #8E8E8E;
+    height: 70vh;
+}
+
+.teamimage {
+    height: fit-content;
+    width: 60%;
+    border-radius: 10%;
+    display: flex;
+}
+
+.imagewraper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 20px;
+}
+
+.whatText {
+    margin: 20px;
+    width: 400px;
+}
+
+.keyRolesText {
+    padding: 0;    
+}
+
+.textwraper {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    align-items: center;
+    flex-direction: column;
+    left:0;
+}
+
+.productOwnerText {
+    width: 500px;
+}
+
+.productpart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 30vh;
+}
+
+.headerwraper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 20px;
+}
+
+.headertext {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.textwraper {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+    html {
+        height: 100%;
+        width: 100vw;
+    }
+    
+    body {
+        width: 100%;
+    }
+
+    .teamimage {
+        margin: 10px;
+    }
+
+    .whatText {
+        width: 90%;
+        text-align: center;
+    }
+
+    .imagepart {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-bottom: none;
+        height: 60vh;
+    }
+
+    .teamimage {
+        width: 100%;
+    }
+
+    .productpart {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 70vh;
+    }
+
+    .headertext {
+        text-align: center;
+        margin: 10px;
+    }
+
+    .headerwraper {
+        margin: 0;
+    }
+
+    .productOwnerText {
+        margin: 10px;
+        width: 90%;
+    }
+}
