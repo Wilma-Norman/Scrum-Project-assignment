@@ -34,7 +34,7 @@ const Layout = () => {
                             <NavLink className={({ isActive}) => isActive ?  styles.active : ''} to='artifacts'>Three Artifacts</NavLink>
                         </div>
                     }
-                <Outlet />
+            <Outlet />
         </div>
         </>
     )
