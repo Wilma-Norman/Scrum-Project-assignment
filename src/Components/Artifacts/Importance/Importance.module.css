@@ -1,4 +1,52 @@
-.highlight {
-    background-color: white;
-    color: rgb(59, 59, 59);
+.importanceContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.textWrapper h2, .textWrapper p {
+    padding-bottom: 62px;
+}
+
+.imageWrapper {
+    margin-bottom: 32px;
+}
+
+.importanceContainer img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.navigationButton {
+    justify-content: center;
+    display: flex;
+}
+
+@media screen and (min-width: 768px) {
+    .importanceContainer {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .imageWrapper {
+        flex: 1;
+        justify-content: center;
+        margin-bottom: unset;
+        display: flex;
+    }
+
+    .imageWrapper img {
+        max-width: 80%;
+        max-width: 450px;
+    }
+
+    .textWrapper {
+        flex: 1;
+        padding-left: 32px;
+    }
+
+    .navigationButton {
+        justify-content: center;
+        display: flex;
+    }
 }
