@@ -1,10 +1,14 @@
 import Importance from "../../Components/Artifacts/Importance"
+import styles from "./Artifacts.module.css"
+
 
 const Artifacts = () => {
     return(
-        <>
-            <Importance/>        
-        </>
+        <div className={styles.artifactContainer}>
+
+            <Importance/>
+
+        </div>
     )
 }
 

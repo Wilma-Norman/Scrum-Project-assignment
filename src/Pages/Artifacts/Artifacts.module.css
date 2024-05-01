@@ -1,0 +1,7 @@
+.artifactContainer {
+    background-color: rgb(65, 65, 65);
+    color: white;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}

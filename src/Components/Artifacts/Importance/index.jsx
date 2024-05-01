@@ -11,7 +11,7 @@ const Importance = () => {
                 <img src={Artifacts.teamCelebratingImgSource} alt="Team"/>
             </div>
             <div>
-                <Card title="The Importance of the Artifacts" text={Artifacts.importanceOfArtifactsText}/>
+                <Card title="The Importance of the Artifacts" text={Artifacts.importanceOfArtifactsText} className={styles.textWrapper}/>
                 <div className={styles.navigationButton}>
                     <Buttons direction="back" path="/events"/>
                 </div>
