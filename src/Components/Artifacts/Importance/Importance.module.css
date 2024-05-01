@@ -1,15 +1,15 @@
 .importanceContainer {
     display: flex;
     flex-direction: column;
-    padding: 16px;
+    padding: 32px;
     width: 100%;
 }
 
-.textWrapper h2, .textWrapper p {
-    padding-bottom: 62px;
+.importanceContainer .textWrapper h2, .importanceContainer .textWrapper p {
+    padding-bottom: 16px;
 }
 
-.imageWrapper {
+.importanceContainer .imageWrapper {
     margin-bottom: 32px;
 }
 
@@ -18,13 +18,17 @@
     border-radius: 10px;
 }
 
-.textContainer {
-    padding: 32px;
-}
-
 .navigationButton {
     justify-content: center;
     display: flex;
+}
+
+.navigationButton a {
+    color: white;
+}
+
+.navigationButton a:hover {
+    color: rgb(168, 39, 39);
 }
 
 @media screen and (min-width: 768px) {
@@ -33,19 +37,19 @@
         align-items: center;
     }
 
-    .imageWrapper {
+    .importanceContainer .imageWrapper {
         flex: 1;
         justify-content: center;
         margin-bottom: unset;
         display: flex;
     }
 
-    .imageWrapper img {
+    .importanceContainer .imageWrapper img {
         max-width: 80%;
         max-width: 450px;
     }
 
-    .textWrapper {
+    .importanceContainer .textWrapper {
         flex: 1;
         padding-left: 32px;
     }

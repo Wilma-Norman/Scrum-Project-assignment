@@ -10,8 +10,8 @@ const Importance = () => {
             <div className={styles.imageWrapper}>
                 <img src={Artifacts.teamCelebratingImgSource} alt="Team"/>
             </div>
-            <div>
-                <Card title="The Importance of the Artifacts" text={Artifacts.importanceOfArtifactsText} className={styles.textWrapper}/>
+            <div className={styles.textWrapper}>
+                <Card title="The Importance of the Artifacts" text={Artifacts.importanceOfArtifactsText} />
                 <div className={styles.navigationButton}>
                     <Buttons direction="back" path="/events"/>
                 </div>
