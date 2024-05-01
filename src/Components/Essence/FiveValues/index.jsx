@@ -20,12 +20,12 @@ const FiveValues = () => {
                     <p>{Essence.transparencyText}</p>
                     <h4 className={styles.smallText}>{Essence.transparencyPS}</h4>
                 </div>
-                <div className={styles.lines}></div>
+            </div> 
+                <hr className={styles.lines}></hr>
                 <div className={styles.lowerContainer}>
                     <h1 className={styles.title}>The 5 values of Scrum</h1>
                     <p className={styles.sideText}>{Essence.fiveValuesText}</p>
                 </div>
-            </div> 
              
         </>
     );

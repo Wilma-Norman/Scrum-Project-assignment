@@ -1,6 +1,13 @@
 html {
     background-color: #DDE5DD;
 }
+.upperContainer {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+}
 
 .boxOne {
     background-color: #4B7492;
@@ -29,19 +36,6 @@ html {
     color: #EDEADE;
 }
 
-.upperContainer {
-    position: absolute;
-    justify-content: space-evenly;
-    display: flex;
-    flex-direction: column;
-}
-
-.lowerContainer {
-    display: flex;
-    margin: 20rem 9rem;
-
-}
-
 .titleOne {
     text-align: center;
     font-size: 24px;
@@ -57,12 +51,19 @@ html {
     font-size: 24px;
 }
 
+.lowerContainer {
+    display: flex;
+    margin:30rem 12rem;
+
+}
 p {
     text-align: center;
 }
 
 h4 {
     text-align: center;
+    font-weight: normal;
+    padding: 10px;
 }
 
 .fiveValuesText,
@@ -72,7 +73,33 @@ h4 {
     margin-left: 19%;
 }
 
-.lines {
-    border-top: 1.3px solid #8E8E8E;
+h1 {
+    font-weight: normal;
 }
+
+hr.lines {
+    border-top: 1px solid black;
+    top: 42%;
+    position: absolute;
+    width: 99%;
+}
+
+@media (min-width: 768px) {
+    .upperContainer {
+        padding-top: 5rem; 
+    }
+
+    .upperContainer {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        justify-content: space-evenly;
+        padding-top: 3rem;
+    }
+
+
+}
+
+
+
 
