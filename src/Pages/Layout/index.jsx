@@ -1,0 +1,41 @@
+import { NavLink, Outlet } from "react-router-dom";
+import { Menu } from "lucide-react";
+import { useState, useRef } from "react";
+import styles from './Layout.module.css'
+
+const Layout = () => {
+    const [showNavItems, setShowNavItems] = useState(false);
+    const navItemsContainer = useRef(null);
+
+    const closeMenu = () => {
+        setShowNavItems(false)
+    }
+
+    const handleClick = () => {
+        setShowNavItems(!showNavItems)
+    }
+
+    document.addEventListener('click', (event) => {
+        if (showNavItems && !navItemsContainer?.current?.contains(event.target)) {
+            closeMenu();
+        }
+    });
+
+    return(
+        <>
+        <Menu onClick={handleClick} ref={navItemsContainer}/>
+                {showNavItems &&
+                    <div className={styles.navigation}>
+                        <NavLink className={({ isActive}) => isActive ?  styles.active : ''} to='/'>Home</NavLink>
+                        <NavLink className={({ isActive}) => isActive ?  styles.active : ''} to='essence'>The Essence of Scrum</NavLink>
+                        <NavLink className={({ isActive}) => isActive ?  styles.active : ''} to='scrum-team'>Scrum Team</NavLink>
+                        <NavLink className={({ isActive}) => isActive ?  styles.active : ''} to='events'>Sprint Events</NavLink>
+                        <NavLink className={({ isActive}) => isActive ?  styles.active : ''} to='artifacts'>Three Artifacts</NavLink>
+                    </div>
+                }
+            <Outlet />
+        </>
+    )
+}
+
+export default Layout;

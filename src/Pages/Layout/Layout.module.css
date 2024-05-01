@@ -1,0 +1,18 @@
+.navigation {
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.active {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: inherit;
+
+}
