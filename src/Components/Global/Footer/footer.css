@@ -31,3 +31,29 @@
   height: auto;
   width: 100px;
 }
+
+@media (max-width: 768px) {
+  .footer {
+      flex-direction: column; 
+      align-items: center;
+      padding: 20px;
+      text-align: center; 
+  }
+
+  .footer-section {
+      align-items: center; 
+  }
+
+  .footer-left ul, .footer-right p {
+      text-align: center;
+  }
+
+  .footer-right p {
+      text-align: center; 
+  }
+
+  .footer img {
+      margin-top: 20px;
+      width: 80px;
+  }
+}
