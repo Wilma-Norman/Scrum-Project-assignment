@@ -1,0 +1,49 @@
+.theoryContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 24px;
+}
+
+.contentContainer h2 {
+    background-color: var(--essence-dark-green);
+    border-radius: 10px;
+    color: #fff;
+    padding: 16px;
+    text-align: center;
+    flex-grow: 0;
+}
+
+.contentContainer p {
+    flex-grow: 0;
+}
+
+.theoryContainer * {
+    flex: 1;
+}
+
+.imgContainer {
+    padding: 24px;
+}
+
+.imgContainer img {
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (min-width: 768px) {
+    .theoryContainer {
+        flex-direction: row;
+    }
+
+    .imgContainer {
+        width: 60%;
+    }
+}
