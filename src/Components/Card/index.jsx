@@ -6,4 +6,5 @@ const Card = ({ title, text, className }) => {
         </div>
     );
 };
+
 export default Card;
