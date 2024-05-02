@@ -1,0 +1,31 @@
+body {
+    background-color: #E4DEE8;
+}
+
+.wraper {
+    display: flex;
+    flex-direction: row;
+}
+
+.mainText {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    width: 50%;
+}
+
+.cirkles {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
