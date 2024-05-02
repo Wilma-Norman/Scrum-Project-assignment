@@ -1,10 +1,10 @@
 import React from "react";
-import './footer.css';
+import styles from './Footer.module.css';
 
 const Footer = () => {
   return (
-    <footer className="footer">
-      <div className="footer-left">
+    <footer className={styles.footer}>
+      <div className={styles.footerLeft}>
         <h3>Created by the Scrumbags</h3>
         <ul>
           <li>Alexandra Bomberg</li>
@@ -14,13 +14,12 @@ const Footer = () => {
           <li>Maria Hendricks</li>
         </ul>
       </div>
-      <div className="footer-center">
+      <div className={styles.footerCenter}>
       <img src="/Images/logo_transparant.png" alt="Logo transparant" style={{ maxWidth: '100px' }} />
       </div>
-      <div className="footer-right">
+      <div className={styles.footerRight}>
         <p>The Scrum Guide Copyright 2024</p>
       </div>
-
     </footer>
   );
 };

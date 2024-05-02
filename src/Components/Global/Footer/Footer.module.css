@@ -9,21 +9,22 @@
   color: white;
 }
 
-.footer-section {
+.footerLeft, .footerCenter, .footerRight {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
-.footer-left ul {
+.footerLeft ul {
   list-style: none;
   padding: 0;
 }
 
-.footer-left ul li {
+.footerLeft ul li {
   margin: 5px 0;
 }
 
-.footer-right p {
+.footerRight p {
   text-align: right;
 }
 
@@ -34,26 +35,22 @@
 
 @media (max-width: 768px) {
   .footer {
-      flex-direction: column; 
-      align-items: center;
-      padding: 20px;
-      text-align: center; 
+    flex-direction: column; 
+    align-items: center;
+    padding: 20px;
+    text-align: center; 
   }
 
-  .footer-section {
-      align-items: center; 
+  .footerLeft, .footerCenter, .footerRight {
+    align-items: center; 
   }
 
-  .footer-left ul, .footer-right p {
-      text-align: center;
-  }
-
-  .footer-right p {
-      text-align: center; 
+  .footerLeft ul, .footerRight p {
+    text-align: center;
   }
 
   .footer img {
-      margin-top: 20px;
-      width: 80px;
+    margin-top: 20px;
+    width: 80px;
   }
 }
