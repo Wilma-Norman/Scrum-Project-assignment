@@ -11,8 +11,7 @@ const TreeCirkles = ({direction, path}) => {
             </div>
             <div className={styles.cirkles}>
                 <img src={ScrumTeam.circleImageSource} className={styles.image}/>
-            </div>
-            
+            </div>            
             <div>
                 <Buttons direction="forward" path="/" />
                 <Buttons direction="back" path="/essence" />
