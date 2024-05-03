@@ -1,21 +1,21 @@
 import styles from './ProductOwner.module.css'
-import teamwork from '../../../../Public/Images/teamwork.jpg'
-import {ScrumTeam} from '../../../data/data.js'
+import teamwork from '/Images/teamwork.jpg'
+import { ScrumTeam } from '../../../data/data.js'
 
 const ProductOwner = () => {
     return (
-        <>        
+        <>
             <div className={styles.imagepart}>
                 <div className={styles.imagewraper}>
-                    <img className={styles.teamimage} src={teamwork} alt="Image"/>
+                    <img className={styles.teamimage} src={teamwork} alt="Image" />
                 </div>
-                <div className={styles.textwraper}> 
+                <div className={styles.textwraper}>
                     <p className={styles.whatText}>{ScrumTeam.whatText}</p>
                     <ul className={styles.keyRolesText}>{ScrumTeam.keyRolesText}
-                        <li>{ScrumTeam.bulletOne}</li>      
-                        <li>{ScrumTeam.bulletTwo}</li> 
-                        <li>{ScrumTeam.bulletThree}</li> 
-                    </ul>  
+                        <li>{ScrumTeam.bulletOne}</li>
+                        <li>{ScrumTeam.bulletTwo}</li>
+                        <li>{ScrumTeam.bulletThree}</li>
+                    </ul>
                 </div>
             </div>
             <div className={styles.productpart}>
@@ -24,8 +24,8 @@ const ProductOwner = () => {
                 </div>
                 <div className={styles.textwraper}>
                     <p className={styles.productOwnerText}>{ScrumTeam.productOwnerText}</p>
-                </div>                 
-            </div>       
+                </div>
+            </div>
         </>
     )
 }
