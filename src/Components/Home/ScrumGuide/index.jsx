@@ -13,10 +13,10 @@ const ScrumGuide = () => {
                 <p className={styles.smallText}>{Home.readyToGoText}</p>
                 <Buttons direction="forward" path="/" className={styles.button}/>
             </div>
-        </div>
             <div className={styles.imageContainer}>
                 <img src="../../Public/Images/happygirl.jpg" alt="Happy woman at office" />
             </div>
+        </div>
         </>
     )
 }
