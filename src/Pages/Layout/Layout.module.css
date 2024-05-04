@@ -1,17 +1,31 @@
 .navbar {
     width: 100%;
     height: fit-content;
-    background-color: #fff;
+    background-color: #000;
     display: flex;
     flex-direction: row;
     flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.navbar img {
+    /* align-self: flex-end; */
+    /* justify-self: flex-start; */
+    width: 50px;
+    margin: 4px;
+    /* background-color: #fff; */
+    filter: drop-shadow(0px 0px 2px #fff);
+    border-radius: 50%;
+
 }
 
 .hamburger {
-    color: #000;
-    background-color: #fff;
+    color: #fff;
     border-radius: 3px;
     cursor: pointer;
+    height: 35px;
+    width: 35px;
+    margin: 10px;
 }
 
 .navigation {
