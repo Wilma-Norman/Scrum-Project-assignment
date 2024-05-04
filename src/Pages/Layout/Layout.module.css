@@ -9,19 +9,28 @@
 
 .hamburger {
     color: #000;
+    background-color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
 }
 
 .navigation {
-    background-color: #ffffff9c;
     color: #000;
     display: flex;
     flex-direction: column;
-    padding: 24px 0;
+    padding-top: 24px;
     position: fixed;
-    text-align: center;
-    height: 500px;
+    text-align: right;
+    height: fit-content;
     width: 100%;
     z-index: 1000;
+    margin: 0;
+}
+
+.navigation a {
+    animation: fadeInWords ease-in-out 1s forwards;
+    background-color: #ffffff9c;
+    margin: 0;
 }
 
 .active {
@@ -29,16 +38,42 @@
     font-weight: 700;
 }
 
-a,
-a:visited {
+.navigation a,
+.navigation a:visited {
     text-decoration: none;
     color: inherit;
     padding: 8px;
+    cursor: pointer;
+}
+
+
+@keyframes fadeInWords {
+    from {
+      opacity: 0;
+      transform: translateY(-300px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+@keyframes fadeOutWords {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    to {
+        opacity: 0;
+        transform: translateY(-300px);
+    }
 }
 
 @media screen and (min-width:768px) {
     .navigation{
         height: fit-content;
+        width: fit-content;
         text-align: right;
+        border-bottom-left-radius: 10px;
     }
 }
