@@ -28,11 +28,11 @@
     color: #000;
     display: flex;
     flex-direction: column;
-    padding-top: 24px;
+    padding-top: 55px;
     position: fixed;
     text-align: right;
     height: fit-content;
-    width: 100%;
+    width: fit-content;
     z-index: 1000;
     margin: 0;
 }
@@ -41,6 +41,10 @@
     animation: fadeInWords ease-in-out 1s forwards;
     background-color: #ffffff9c;
     margin: 0;
+}
+
+.navigation a:nth-last-child(1) {
+    border-bottom-left-radius: 45px;
 }
 
 .active {
@@ -75,14 +79,5 @@
     to {
         opacity: 0;
         transform: translateY(-300px);
-    }
-}
-
-@media screen and (min-width:768px) {
-    .navigation{
-        height: fit-content;
-        width: fit-content;
-        text-align: right;
-        border-bottom-left-radius: 10px;
     }
 }
