@@ -1,7 +1,9 @@
+import HeroImage from "../../Components/Essence/HeroImage"
+
 const Essence = () => {
     return(
         <>
-        
+            <HeroImage />
         </>
     )
 }
