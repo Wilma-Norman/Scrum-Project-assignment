@@ -19,9 +19,9 @@
   width: 100%;  
   text-align: center;  
   margin: 0; 
-  font-size: 4rem;  /* Increase font size */
-  color: #fff;  /* Lighter shade of white for visibility */
-  font-weight: bold;  /* Making the text bold */
+  font-size: 4rem;
+  color: #fff;
+  font-weight: bold;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8); 
 }
 
