@@ -1,28 +1,38 @@
 .navbar {
-    width: 100%;
-    height: fit-content;
-    background-color: #fff;
+    background-color: #000;
     display: flex;
     flex-direction: row;
     flex-direction: row-reverse;
+    height: fit-content;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.navbar img {
+    border-radius: 50%;
+    filter: drop-shadow(0px 0px 2px #fff);
+    margin: 4px;
+    width: 50px;
 }
 
 .hamburger {
-    color: #000;
-    background-color: #fff;
+    color: #fff;
     border-radius: 3px;
     cursor: pointer;
+    height: 35px;
+    width: 35px;
+    margin: 10px;
 }
 
 .navigation {
     color: #000;
     display: flex;
     flex-direction: column;
-    padding-top: 24px;
+    padding-top: 55px;
     position: fixed;
     text-align: right;
     height: fit-content;
-    width: 100%;
+    width: fit-content;
     z-index: 1000;
     margin: 0;
 }
@@ -31,6 +41,10 @@
     animation: fadeInWords ease-in-out 1s forwards;
     background-color: #ffffff;
     margin: 0;
+}
+
+.navigation a:nth-last-child(1) {
+    border-bottom-left-radius: 45px;
 }
 
 .active {
@@ -46,7 +60,6 @@
     cursor: pointer;
 }
 
-
 @keyframes fadeInWords {
     from {
       opacity: 0;
@@ -56,24 +69,15 @@
       opacity: 1;
       transform: translateY(0);
     }
-  }
+}
 
 @keyframes fadeOutWords {
     from {
         opacity: 1;
         transform: translateY(0);
-      }
+    }
     to {
         opacity: 0;
         transform: translateY(-300px);
-    }
-}
-
-@media screen and (min-width:768px) {
-    .navigation{
-        height: fit-content;
-        width: fit-content;
-        text-align: right;
-        border-bottom-left-radius: 10px;
     }
 }
