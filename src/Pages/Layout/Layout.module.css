@@ -26,6 +26,7 @@
 
 .navigation {
     color: #000;
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     padding-top: 55px;
@@ -57,7 +58,6 @@
     text-decoration: none;
     color: inherit;
     padding: 8px;
-    cursor: pointer;
 }
 
 @keyframes fadeInWords {
