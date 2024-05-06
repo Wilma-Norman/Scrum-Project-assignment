@@ -1,0 +1,36 @@
+.card {
+  background-color: #254622; 
+  color: #ffffff; 
+  padding: 20px;
+  font-family: Arial, sans-serif; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.leftColumn, .rightColumn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex: 1; 
+}
+
+.header {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
+  align-content: center;
+  justify-content: center;
+  padding: 60px;
+}
+
+.body {
+  font-size: 24px;
+  text-align: left;
+  align-content: center;
+  justify-content: center;
+  padding: 30px;
+}
