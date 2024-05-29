@@ -1,7 +1,9 @@
+import HomeHero from "../../Components/Home/HomeHero"
+
 const Home = () => {
     return(
         <>
-        
+            <HomeHero/>
         </>
     )
 }
